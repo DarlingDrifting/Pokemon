@@ -23,7 +23,7 @@ class Program
         {
             //int j = i + 1; façon la plus rapide et simple à mon sens
             int k = System.Array.IndexOf(pokemons, pokemons[i]) + 1;//2ème façon de faire pour s'exercer
-            Console.WriteLine("N°" + k + " : " + pokemons[i]);
+            Console.WriteLine("N°" + k + " : " + pokemons[i]); //k pourrait être remplacé par j ou par (i + 1)
         }
         Console.WriteLine("\nTotal de pokémons : " + pokemons.Length);
     }
