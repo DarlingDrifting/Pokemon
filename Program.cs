@@ -21,8 +21,8 @@ class Program
 
         for (int i = 0; i < pokemons.Length; i++)
         {
-            int k = System.Array.IndexOf(pokemons, pokemons[i]) + 1;//2ème façon de faire pour s'exercer
             //int j = i + 1; façon la plus rapide et simple à mon sens
+            int k = System.Array.IndexOf(pokemons, pokemons[i]) + 1;//2ème façon de faire pour s'exercer
             Console.WriteLine("N°" + k + " : " + pokemons[i]);
         }
         Console.WriteLine("\nTotal de pokémons : " + pokemons.Length);
